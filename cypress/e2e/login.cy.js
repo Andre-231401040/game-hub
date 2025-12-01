@@ -83,6 +83,6 @@ describe('LoginPage spec', () => {
       .contains(/^Login$/)
       .click();
 
-    cy.get('.threads', { timeout: 10000 }).should('be.visible');
+    cy.get('.threads').should('be.visible');
   });
 });
